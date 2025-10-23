@@ -1,0 +1,56 @@
+@import "@/components/theme.css";
+@import 'leaflet/dist/leaflet.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[data-theme="dark"] .ql-toolbar.ql-snow .ql-picker-label,
+[data-theme="dark"] .ql-toolbar.ql-snow .ql-picker-item,
+[data-theme="dark"] .ql-toolbar.ql-snow button {
+  color: #fff !important;
+  fill: #fff !important;
+  opacity: 1 !important;
+}
+[data-theme="dark"] .ql-toolbar.ql-snow .ql-stroke {
+  stroke: #fff !important;
+}
+[data-theme="dark"] .ql-toolbar.ql-snow .ql-fill {
+  fill: #fff !important;
+}
+[data-theme="dark"] .ql-toolbar.ql-snow .ql-picker-options {
+  background: #222 !important;
+}
+[data-theme="dark"] .ql-container.ql-snow {
+  background: #1a202c !important;
+  color: #fff !important;
+  border-color: #334155 !important;
+}
+
+.ql-toolbar.ql-snow,
+.ql-container.ql-snow {
+  border-color: hsl(var(--input) / 0.3) !important;
+  box-shadow: 0 0 0 1px hsl(var(--input));
+}
+
+[data-theme="dark"] .ql-toolbar.ql-snow,
+[data-theme="dark"] .ql-container.ql-snow {
+  border-color: hsl(var(--input)) !important;
+  box-shadow: 0 0 0 1px hsl(var(--input));
+}
+
+.ql-error .ql-toolbar.ql-snow,
+.ql-error .ql-container.ql-snow {
+  border-color: #ef4444 !important;
+  box-shadow: 0 0 0 1px #ef4444;
+}
+
+[data-theme="dark"] .ql-error .ql-toolbar.ql-snow,
+[data-theme="dark"] .ql-error .ql-container.ql-snow {
+  border-color: #ef4444 !important;
+  box-shadow: 0 0 0 1px #ef4444;
+}
+
+.ql-editor {
+  min-height: 200px;
+}
