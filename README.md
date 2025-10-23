@@ -67,7 +67,7 @@ npm start
 ## 🧩 Технологии
 
 * Next.js 15 (App Router, SSR)  
-* React 18 + TypeScript  
+* React 19 + TypeScript  
 * Tailwind CSS  
 * Shadcn/UI  
 * TanStack Query  
@@ -164,7 +164,7 @@ npm start
 ## 🧩 Tech Stack
 
 * Next.js 15 (App Router, SSR)  
-* React 18 + TypeScript  
+* React 19 + TypeScript  
 * Tailwind CSS  
 * Shadcn/UI  
 * TanStack Query  
